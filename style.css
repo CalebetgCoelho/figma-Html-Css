@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+    
+}
+
+
+body{
+    padding: 0;
+    margin: 0%;
+}
+main{
+    display: flex;
+    width: 2232px;
+    height:calc(100vh - 15px);
+    background-color: #F0F0F0;
+    
+}
+img{
+    object-fit: cover;
+}
+.cmp1{
+    display: flex;
+    background-image: url(bgImage.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 1111.5px;
+    height:calc(100vh - 15px);
+    padding: 100px 0 0 111px;
+    flex-direction: column;
+
+    
+}
+p{
+    font-size: 62px;
+    font-weight: bold;
+    font-family: inter;
+  
+}
+.text{
+    font-size: 22px;
+    font-family: inter;
+    font-weight: 300;
+    margin-top: 27px;
+    
+
+    
+}
+.cmp2{
+    padding: 100px 0 0 127.5px;
+    flex-direction: column;
+    height:calc(100vh - 15px);
+    position: relative;
+
+
+}
+h1{
+    font-size: 38px;
+    font-weight: bold;
+    font-family: inter;
+}
+.subtx{
+    font-size: 20px;
+    font-weight: normal;
+    font-family: inter;
+    padding: 42px 0 0 0 ;
+    color: black ;
+    opacity: 75%;
+}
+.subtx2{
+    font-size: 14px;
+    font-weight: normal;
+    font-family: inter;
+    padding: 50px 0 0 0;
+    color: black;
+    opacity: 75%;
+}
+.negrito{
+    font-size:20px;
+    color: black;
+    font-family: inter;
+}
+.container-foto{
+    margin-top: 120px;
+    position: relative;
+    
+}
+.gradiente{
+    background: linear-gradient(180deg, rgba(240, 240, 240, 0) 0%, #F0F0F0 100%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
